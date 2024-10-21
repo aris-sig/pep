@@ -2,64 +2,64 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>//localhost:4321/es/search/</loc>
+    <loc>/es/search/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="//localhost:4321/search/"
+                href="/search/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="//localhost:4321/es/search/"
+                href="/es/search/"
                 />
   </url><url>
-    <loc>//localhost:4321/es/categories/</loc>
+    <loc>/es/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="//localhost:4321/categories/"
+                href="/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="//localhost:4321/es/categories/"
+                href="/es/categories/"
                 />
   </url><url>
-    <loc>//localhost:4321/es/example-page/</loc>
+    <loc>/es/example-page/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="//localhost:4321/example-page/"
+                href="/example-page/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="//localhost:4321/es/example-page/"
+                href="/es/example-page/"
                 />
   </url><url>
-    <loc>//localhost:4321/es/</loc>
+    <loc>/es/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="//localhost:4321/"
+                href="/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="//localhost:4321/es/"
+                href="/es/"
                 />
   </url><url>
-    <loc>//localhost:4321/es/tags/</loc>
+    <loc>/es/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="//localhost:4321/tags/"
+                href="/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="//localhost:4321/es/tags/"
+                href="/es/tags/"
                 />
   </url>
 </urlset>
