@@ -9,7 +9,7 @@ description: ~
 url: ''
 ---
 
-# Outsource Service Management Report
+
 
 This page presents a live Power BI report that provides insights into our **Outsource Service Management**.
 
@@ -17,16 +17,29 @@ This page presents a live Power BI report that provides insights into our **Outs
 
 Below is an interactive Power BI report. You can use the filters and interact with the data directly on this page.
 
-<div style="width: 100%; height: 800px; position: relative;">
-    <iframe 
-        title="Outsource Service Management Report" 
-        width="100%" 
-        height="100%" 
-        src="https://app.powerbi.com/view?r=eyJrIjoiMTYxODQ1MWItNTE4ZC00NjliLTk1ZjUtNzBkOGUzY2YwNzNmIiwidCI6IjUzYjkyMTJhLTAyMDEtNGZlMS04OTVkLTg1NWRjMjE2MDJjYyIsImMiOjEwfQ%3D%3D" 
-        frameborder="0" 
-        allowFullScreen="true">
-    </iframe>
-</div>
+# Sales Over Time
+
+Below is a Plotly chart showing sales over time.
+
+<div id="lineChart" style="width: 100%; max-width: 600px; height: 400px;"></div>
+
+<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+<script>
+  var trace1 = {
+    x: ['2024-01-01', '2024-02-01', '2024-03-01', '2024-04-01'],
+    y: [10, 12, 8, 15],
+    mode: 'lines+markers',
+    type: 'scatter'
+  };
+
+  var layout = {
+    title: 'Monthly Sales',
+    xaxis: { title: 'Month' },
+    yaxis: { title: 'Sales' }
+  };
+
+  Plotly.newPlot('lineChart', [trace1], layout);
+</script>
 
 ## About the Report
 
