@@ -157,6 +157,7 @@
     ],
     "ids": [
       "TableOfContents",
+      "about-the-report",
       "blockquotes",
       "cards",
       "code",
@@ -196,6 +197,8 @@
       "lists",
       "longer-content-table-using-shortcode",
       "our-special-feature",
+      "outsource-service-management-report",
+      "report-overview",
       "search",
       "short-table",
       "something-special",
