@@ -10,6 +10,15 @@
             
                  
                 <item>
+                    <title>contoh iframe</title>
+                    <link>/post/2024-10-22-contoh-iframe/</link>
+                    <pubDate>Tue, 22 Oct 2024 00:00:00 -0700</pubDate>
+                    <description>&lt;p&gt;Page content here&lt;/p&gt;&#xA;&lt;h1 id=&#34;outsource-service-management-report&#34;&gt;Outsource Service Management Report&lt;/h1&gt;&#xA;&lt;p&gt;This page embeds a Power BI report on &lt;strong&gt;Outsource Service Management&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;h2 id=&#34;report-section&#34;&gt;Report Section&lt;/h2&gt;&#xA;&lt;!-- raw HTML omitted --&gt;</description>
+                </item>
+                
+            
+                 
+                <item>
                     <title>my-first-post</title>
                     <link>/post/2024-10-21-my-first-post/</link>
                     <pubDate>Mon, 21 Oct 2024 00:00:00 -0700</pubDate>
