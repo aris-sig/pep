@@ -4,6 +4,8 @@
   <url>
     <loc>/faq/what-is-hugo/</loc>
   </url><url>
+    <loc>/faq2/what-is-hugo/</loc>
+  </url><url>
     <loc>/post/2024-10-22-contoh-iframe/</loc>
     <lastmod>2024-10-22T00:00:00-07:00</lastmod>
   </url><url>
@@ -64,6 +66,8 @@
   </url><url>
     <loc>/faq/long-faq/</loc>
   </url><url>
+    <loc>/faq2/long-faq/</loc>
+  </url><url>
     <loc>/categories/</loc>
     <xhtml:link
                 rel="alternate"
@@ -90,7 +94,11 @@
                 href="/example-page/"
                 />
   </url><url>
+    <loc>/faq2/</loc>
+  </url><url>
     <loc>/faq/</loc>
+  </url><url>
+    <loc>/test_content/</loc>
   </url><url>
     <loc>/search/</loc>
     <xhtml:link
@@ -117,5 +125,7 @@
                 />
   </url><url>
     <loc>/faq/long-faq2/</loc>
+  </url><url>
+    <loc>/faq2/long-faq2/</loc>
   </url>
 </urlset>
