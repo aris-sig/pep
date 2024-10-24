@@ -1,7 +1,7 @@
 <rss version="2.0">
     <channel>
         <title>Categories on Site Title</title>
-        <link>/categories/</link>
+        <link>//localhost:4321/categories/</link>
         <description>Recent content in Site Title</description>
 
          
