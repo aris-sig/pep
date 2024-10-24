@@ -1,11 +1,13 @@
 ---
-author: thetwopct
-date: "2021-04-14"
-description: ""
-title: This is an old post
+title: Three blocks markdown
+author: 'Ariswa'
+date: '2024-10-24'
+slug: []
+categories: []
+tags: []
+description: ~
+url: ''
 ---
-
-
 
 # My Webpage with Three Columns
 
