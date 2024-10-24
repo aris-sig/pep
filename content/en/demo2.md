@@ -29,10 +29,13 @@ Lorem ipsum dolor sit amet consectetuer adipiscing elit aenean commodo
 <div id="chart"></div>
 <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
 <script>
-    var data = [{
-        x: [1, 2, 3],
-        y: [4, 5, 6],
-        type: 'scatter'
-    }];
-    Plotly.newPlot('chart', data);
+    document.addEventListener("DOMContentLoaded", function() {
+        var data = [{
+            x: [1, 2, 3],
+            y: [4, 5, 6],
+            type: 'scatter'
+        }];
+        Plotly.newPlot('chart', data);
+    });
 </script>
+
