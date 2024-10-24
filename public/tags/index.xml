@@ -1,7 +1,7 @@
 <rss version="2.0">
     <channel>
         <title>Tags on Site Title</title>
-        <link>/tags/</link>
+        <link>//localhost:4321/tags/</link>
         <description>Recent content in Site Title</description>
 
          
