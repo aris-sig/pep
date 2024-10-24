@@ -26,7 +26,10 @@ Lorem ipsum dolor sit amet consectetuer adipiscing elit aenean commodo
 {{< /card >}}
 {{< /cards >}}
 
+## Plotly Chart
+
 <div id="chart"></div>
+
 <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
 <script>
     document.addEventListener("DOMContentLoaded", function() {
@@ -38,4 +41,3 @@ Lorem ipsum dolor sit amet consectetuer adipiscing elit aenean commodo
         Plotly.newPlot('chart', data);
     });
 </script>
-
