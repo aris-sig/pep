@@ -67,6 +67,8 @@
     <loc>//localhost:4321/blog/old-post-10/</loc>
     <lastmod>2020-04-14T00:00:00-07:00</lastmod>
   </url><url>
+    <loc>//localhost:4321/demo2/</loc>
+  </url><url>
     <loc>//localhost:4321/faq/long-faq/</loc>
   </url><url>
     <loc>//localhost:4321/faq2/long-faq/</loc>
@@ -84,8 +86,6 @@
                 />
   </url><url>
     <loc>//localhost:4321/demo-page/</loc>
-  </url><url>
-    <loc>//localhost:4321/demo2/</loc>
   </url><url>
     <loc>//localhost:4321/example-page/</loc>
     <xhtml:link

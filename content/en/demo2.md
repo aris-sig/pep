@@ -2,28 +2,10 @@
 description: A demo page for the various markup elements in the Dot Org theme.
 images:
 - https://via.placeholder.com/250x200/d9d9d9/000000
-title: Demo Elements Page 2
+title: 
 ---
 
-This is a demo page, designed to show you the various elements of the theme and how they sit together.
 
-
-Here's a 4 column example:
-
-{{< columns count=4 >}}
-{{< column >}}
-#### Column 1
-{{< /column >}}
-{{< column >}}
-#### Column 2
-{{< /column >}}
-{{< column >}}
-#### Column 3
-{{< /column >}}
-{{< column >}}
-#### Column 4
-{{< /column >}}
-{{< /columns >}}
 
 ## Cards
 
@@ -43,3 +25,14 @@ Lorem ipsum dolor sit amet consectetuer adipiscing elit aenean commodo
 [See our special feature](#)
 {{< /card >}}
 {{< /cards >}}
+
+<div id="chart"></div>
+<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+<script>
+    var data = [{
+        x: [1, 2, 3],
+        y: [4, 5, 6],
+        type: 'scatter'
+    }];
+    Plotly.newPlot('chart', data);
+</script>
