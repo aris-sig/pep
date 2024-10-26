@@ -11,10 +11,9 @@
     <meta name="description" content="My Webpage with Three Columns
 Welcome to my simple webpage! Below are three columns or blocks with text inside each.
 
-
-
-
-" />
+  
+    ## Column 1  
+    This is the first …" />
 
     <link rel="preload" href="/fonts/nunito-v25-latin-regular.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/fonts/oswald-v49-latin-700.woff2" as="font" type="font/woff2" crossorigin>
@@ -30,7 +29,8 @@ Welcome to my simple webpage! Below are three columns or blocks with text inside
 <meta property="og:url" content="/blog/old-post/">
   <meta property="og:site_name" content="Site Title">
   <meta property="og:title" content="This is an old post">
-  <meta property="og:description" content="My Webpage with Three Columns Welcome to my simple webpage! Below are three columns or blocks with text inside each.">
+  <meta property="og:description" content="My Webpage with Three Columns Welcome to my simple webpage! Below are three columns or blocks with text inside each.
+## Column 1 This is the first column. You can place any text, links, or images here. - List item 1 - List item 2 ## Column 2 This is the second column with some additional text. You can use **bold**, *italics*, or any other markdown syntax here. ## Column 3 The third column can contain paragraphs, bullet points, or other elements. &gt; Example of a blockquote inside the third column.">
   <meta property="og:locale" content="en">
   <meta property="og:type" content="article">
     <meta property="article:section" content="blog">
@@ -41,7 +41,8 @@ Welcome to my simple webpage! Below are three columns or blocks with text inside
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:image" content="/img/social-share.png">
   <meta name="twitter:title" content="This is an old post">
-  <meta name="twitter:description" content="My Webpage with Three Columns Welcome to my simple webpage! Below are three columns or blocks with text inside each.">
+  <meta name="twitter:description" content="My Webpage with Three Columns Welcome to my simple webpage! Below are three columns or blocks with text inside each.
+## Column 1 This is the first column. You can place any text, links, or images here. - List item 1 - List item 2 ## Column 2 This is the second column with some additional text. You can use **bold**, *italics*, or any other markdown syntax here. ## Column 3 The third column can contain paragraphs, bullet points, or other elements. &gt; Example of a blockquote inside the third column.">
 
 <meta property="article:published_time" content="2021-04-14" />
 
@@ -283,11 +284,24 @@ Welcome to my simple webpage! Below are three columns or blocks with text inside
 
 <h1 id="my-webpage-with-three-columns">My Webpage with Three Columns</h1>
 <p>Welcome to my simple webpage! Below are three columns or blocks with text inside each.</p>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
+<div style="display: flex; justify-content: space-around; gap: 20px;">
+  <div style="flex: 1; padding: 10px; background-color: #f4f4f4; border: 1px solid #ddd;">
+    ## Column 1  
+    This is the first column. You can place any text, links, or images here.  
+    - List item 1  
+    - List item 2  
+  </div>
+  <div style="flex: 1; padding: 10px; background-color: #e8f8ff; border: 1px solid #ddd;">
+    ## Column 2  
+    This is the second column with some additional text.  
+    You can use **bold**, *italics*, or any other markdown syntax here.  
+  </div>
+  <div style="flex: 1; padding: 10px; background-color: #fff8e1; border: 1px solid #ddd;">
+    ## Column 3  
+    The third column can contain paragraphs, bullet points, or other elements.  
+    > Example of a blockquote inside the third column.
+  </div>
+</div>
 
 
 

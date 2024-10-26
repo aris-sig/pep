@@ -247,11 +247,24 @@
       <h2><a href="/post/2024-10-24-three-blocks-markdown/">Three blocks markdown</a></h2>
       <p><h1 id="my-webpage-with-three-columns">My Webpage with Three Columns</h1>
 <p>Welcome to my simple webpage! Below are three columns or blocks with text inside each.</p>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted --></p>
+<div style="display: flex; justify-content: space-around; gap: 20px;">
+  <div style="flex: 1; padding: 10px; background-color: #f4f4f4; border: 1px solid #ddd;">
+    ## Column 1  
+    This is the first column. You can place any text, links, or images here.  
+    - List item 1  
+    - List item 2  
+  </div>
+  <div style="flex: 1; padding: 10px; background-color: #e8f8ff; border: 1px solid #ddd;">
+    ## Column 2  
+    This is the second column with some additional text.  
+    You can use **bold**, *italics*, or any other markdown syntax here.  
+  </div>
+  <div style="flex: 1; padding: 10px; background-color: #fff8e1; border: 1px solid #ddd;">
+    ## Column 3  
+    The third column can contain paragraphs, bullet points, or other elements.  
+    > Example of a blockquote inside the third column.
+  </div>
+</div></p>
     </article>
   
     <article>
@@ -260,7 +273,16 @@
 <h1 id="outsource-service-management-report">Outsource Service Management Report</h1>
 <p>This page embeds a Power BI report on <strong>Outsource Service Management</strong>.</p>
 <h2 id="report-section">Report Section</h2>
-<!-- raw HTML omitted --></p>
+<div style="width: 100%; height: 800px; position: relative;">
+    <iframe 
+title="Outsource Service Management Report" 
+width="100%" 
+height="100%" 
+src="https://app.powerbi.com/view?r=eyJrIjoiMTYxODQ1MWItNTE4ZC00NjliLTk1ZjUtNzBkOGUzY2YwNzNmIiwidCI6IjUzYjkyMTJhLTAyMDEtNGZlMS04OTVkLTg1NWRjMjE2MDJjYyIsImMiOjEwfQ%3D%3D" 
+frameborder="0" 
+allowfullscreen="true">
+    </iframe>
+    </div></p>
     </article>
   
     <article>
@@ -270,10 +292,24 @@
 <p>Below is an interactive Power BI report. You can use the filters and interact with the data directly on this page.</p>
 <h1 id="sales-over-time">Sales Over Time</h1>
 <p>Below is a Plotly chart showing sales over time.</p>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
+<div id="lineChart" style="width: 100%; max-width: 600px; height: 400px;"></div>
+<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+<script>
+  var trace1 = {
+    x: ['2024-01-01', '2024-02-01', '2024-03-01', '2024-04-01'],
+    y: [10, 12, 8, 15],
+    mode: 'lines+markers',
+    type: 'scatter'
+  };
+
+  var layout = {
+    title: 'Monthly Sales',
+    xaxis: { title: 'Month' },
+    yaxis: { title: 'Sales' }
+  };
+
+  Plotly.newPlot('lineChart', [trace1], layout);
+</script>
 <h2 id="about-the-report">About the Report</h2>
 <p>The report contains key metrics related to:</p></p>
     </article>

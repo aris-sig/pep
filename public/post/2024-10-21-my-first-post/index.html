@@ -270,10 +270,24 @@ About the Report The report contains key metrics related to:">
 <p>Below is an interactive Power BI report. You can use the filters and interact with the data directly on this page.</p>
 <h1 id="sales-over-time">Sales Over Time</h1>
 <p>Below is a Plotly chart showing sales over time.</p>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
+<div id="lineChart" style="width: 100%; max-width: 600px; height: 400px;"></div>
+<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+<script>
+  var trace1 = {
+    x: ['2024-01-01', '2024-02-01', '2024-03-01', '2024-04-01'],
+    y: [10, 12, 8, 15],
+    mode: 'lines+markers',
+    type: 'scatter'
+  };
+
+  var layout = {
+    title: 'Monthly Sales',
+    xaxis: { title: 'Month' },
+    yaxis: { title: 'Sales' }
+  };
+
+  Plotly.newPlot('lineChart', [trace1], layout);
+</script>
 <h2 id="about-the-report">About the Report</h2>
 <p>The report contains key metrics related to:</p>
 <ul>

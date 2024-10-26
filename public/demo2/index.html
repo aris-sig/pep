@@ -252,25 +252,54 @@
 <div class="card">
     <h2 id="something-special">Something special</h2>
 <p>Lorem ipsum dolor sit amet consectetuer adipiscing elit aenean commodo</p>
-<!-- raw HTML omitted -->
+<div class="spacer-50" aria-hidden="true">
+    <style>
+        .spacer-50 {
+            height: 50px;
+        }
+        @media (max-width: 1000px) {
+            .spacer-50 {
+                height: calc(50px / 2);
+            }
+        }
+    </style>
+</div>
 <p><a href="/">Get our app</a></p>
 
 </div> 
 <div class="card">
     <h2 id="our-special-feature">Our special feature</h2>
 <p>Lorem ipsum dolor sit amet consectetuer adipiscing elit aenean commodo</p>
-<!-- raw HTML omitted -->
+<div class="spacer-50" aria-hidden="true">
+    <style>
+        .spacer-50 {
+            height: 50px;
+        }
+        @media (max-width: 1000px) {
+            .spacer-50 {
+                height: calc(50px / 2);
+            }
+        }
+    </style>
+</div>
 <p><a href="/">See our special feature</a></p>
 
 </div> 
 
 </div>
 <h2 id="plotly-chart">Plotly Chart</h2>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-
+<div id="chart"></div>
+<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        var data = [{
+            x: [1, 2, 3],
+            y: [4, 5, 6],
+            type: 'scatter'
+        }];
+        Plotly.newPlot('chart', data);
+    });
+</script>
 
             
             </article>

@@ -271,24 +271,37 @@
 <div class="card">
     <h2 id="something-special">Something special</h2>
 <p>Lorem ipsum dolor sit amet consectetuer adipiscing elit aenean commodo</p>
-<!-- raw HTML omitted -->
+<div class="spacer-50" aria-hidden="true">
+    <style>
+        .spacer-50 {
+            height: 50px;
+        }
+        @media (max-width: 1000px) {
+            .spacer-50 {
+                height: calc(50px / 2);
+            }
+        }
+    </style>
+</div>
 <p><a href="/">Get our app</a></p>
 
 </div> 
 <div class="card">
     <h2 id="our-special-feature">Our special feature</h2>
 <p>Lorem ipsum dolor sit amet consectetuer adipiscing elit aenean commodo</p>
-<!-- raw HTML omitted -->
-<p><a href="/">See our special feature</a></p>
-
-</div> 
-
+<div class="spacer-50" aria-hidden="true">
+    <style>
+        .spacer-50 {
+            height: 50px;
+        }
+        @media (max-width: 1000px) {
+            .spacer-50 {
+                height: calc(50px / 2);
+            }
+        }
+    </style>
 </div>
-<h2 id="plotly-chart">Plotly Chart</h2>
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
-<!-- raw HTML omitted --></p>
+<p><a href="/">See our special feature</a></p></p>
     </article>
   
     <article>
@@ -328,7 +341,9 @@
   
     <article>
       <h2><a href="/powerbi/">PowerBI</a></h2>
-      <p><!-- raw HTML omitted --></p>
+      <p><div style="width: 100%; overflow: hidden;">
+    <iframe title="MONITOR_PO_JASA" width="600" height="373.5" src="https://app.powerbi.com/view?r=eyJrIjoiMTYxODQ1MWItNTE4ZC00NjliLTk1ZjUtNzBkOGUzY2YwNzNmIiwidCI6IjUzYjkyMTJhLTAyMDEtNGZlMS04OTVkLTg1NWRjMjE2MDJjYyIsImMiOjEwfQ%3D%3D" frameborder="0" allowFullScreen="true"></iframe>
+</div></p>
     </article>
   
     <article>
@@ -337,7 +352,7 @@
 
 Below is a Plotly chart showing sales over time.
 </code></pre>
-<!-- raw HTML omitted -->
+<div id="lineChart" style="width: 100%; max-width: 600px; height: 400px;"></div>
 <pre><code>&lt;script src=&quot;https://cdn.plot.ly/plotly-latest.min.js&quot;&gt;&lt;/script&gt;
 &lt;script&gt;
 var trace1 = {
@@ -353,7 +368,7 @@ xaxis: { title: &lsquo;Month&rsquo; },
 yaxis: { title: &lsquo;Sales&rsquo; }
 };</p>
 <p>Plotly.newPlot(&rsquo;lineChart&rsquo;, [trace1], layout);
-<!-- raw HTML omitted --></p>
+</script></p>
 <p>Page content here</p></p>
     </article>
   
@@ -402,8 +417,10 @@ yaxis: { title: &lsquo;Sales&rsquo; }
   
     <article>
       <h2><a href="/demo3/">Showcase</a></h2>
-      <p><!-- raw HTML omitted -->
-<!-- raw HTML omitted -->
+      <p><div class="hx-mt-4"></div>
+<p class="hx-mb-12 hx-text-center hx-text-lg hx-text-gray-500 dark:hx-text-gray-400">
+DAFTAR DASHBOARD EXPRO
+</p>
 <p>Use the cards shortcode to display highlighted content on your page.</p>
 
 <div class="cards columns-3">
@@ -421,7 +438,18 @@ imageStyle=&ldquo;object-fit:cover; aspect-ratio:16/9;&rdquo;</p>
 title=&ldquo;Install C&rdquo;
 image=&ldquo;<a href="https://github.com/user-attachments/assets/c9a85327-c7e7-40f1-830a-b4190a5e47bd%22">https://github.com/user-attachments/assets/c9a85327-c7e7-40f1-830a-b4190a5e47bd"</a>
 imageStyle=&ldquo;object-fit:cover; aspect-ratio:16/9;&rdquo;</p>
-<!-- raw HTML omitted -->
+<div class="spacer-50" aria-hidden="true">
+    <style>
+        .spacer-50 {
+            height: 50px;
+        }
+        @media (max-width: 1000px) {
+            .spacer-50 {
+                height: calc(50px / 2);
+            }
+        }
+    </style>
+</div>
 <p><a href="/">See our special feature</a></p>
 
 </div> 
