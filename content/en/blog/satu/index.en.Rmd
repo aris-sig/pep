@@ -1,0 +1,31 @@
+---
+title: 'satu'
+author: Ariswa
+date: '2024-10-26'
+slug: []
+categories:
+  - R
+tags: []
+description: ~
+url: ''
+---
+
+Page content here
+
+---
+title: "Power BI Dashboard"
+description: "Embedded Power BI Dashboard"
+images:
+- https://via.placeholder.com/250x200/d9d9d9/000000
+date: 2024-10-25
+---
+
+Here is the Power BI dashboard:
+
+<div style="width: 100%; overflow: hidden;">
+    <iframe title="MONITOR_PO_JASA" width="600" height="373.5" src="https://app.powerbi.com/view?r=eyJrIjoiMTYxODQ1MWItNTE4ZC00NjliLTk1ZjUtNzBkOGUzY2YwNzNmIiwidCI6IjUzYjkyMTJhLTAyMDEtNGZlMS04OTVkLTg1NWRjMjE2MDJjYyIsImMiOjEwfQ%3D%3D" frameborder="0" allowFullScreen="true"></iframe>
+</div>
+
+###iframe asli ###
+
+<iframe title="MONITOR_PO_JASA" width="600" height="373.5" src="https://app.powerbi.com/view?r=eyJrIjoiMTYxODQ1MWItNTE4ZC00NjliLTk1ZjUtNzBkOGUzY2YwNzNmIiwidCI6IjUzYjkyMTJhLTAyMDEtNGZlMS04OTVkLTg1NWRjMjE2MDJjYyIsImMiOjEwfQ%3D%3D" frameborder="0" allowFullScreen="true"></iframe>
